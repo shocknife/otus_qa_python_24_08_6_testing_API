@@ -53,5 +53,4 @@ def test_validate_schema_post():
         "email": {"type": "string"},
         "body": {"type": "string"},
     }
-
     validate(instance=res.json(), schema=schema)
